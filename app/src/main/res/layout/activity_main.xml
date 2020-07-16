@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <include layout="@layout/app_bar"></include>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/keyword"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="14dp"
+            android:textSize="16sp"
+            android:textColor="@color/app_blue_eBay"
+
+            android:text="Keyword" />
+
+        <EditText
+            android:id="@+id/keywordField"
+            android:layout_width="355dp"
+            android:layout_height="41dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="35dp"
+            android:ems="10"
+            android:hint="Enter Keyword"
+            android:inputType="textPersonName" />
+        <TextView
+            android:id="@+id/keyAlert"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:text="Please enter mandatory field"
+            android:textColor="@color/red"
+            android:layout_marginTop="75dp"
+            android:layout_marginLeft="15dp"
+            android:visibility="invisible"
+            android:textStyle="italic"
+            ></TextView>
+        <TextView
+            android:id="@+id/priceRange"
+            android:layout_width="90dp"
+            android:layout_height="27dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="100dp"
+            android:textSize="16sp"
+            android:textColor="@color/app_blue_eBay"
+            android:text="Price Range" />
+
+        <EditText
+            android:id="@+id/minPriceField"
+            android:layout_width="149dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="130dp"
+            android:ems="10"
+            android:hint="Minimum Price"
+            android:inputType="numberDecimal" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:id="@+id/priceAlert"
+            android:textColor="@color/red"
+            android:layout_marginTop="161dp"
+            android:layout_marginLeft="15dp"
+            android:text="Please enter valid price values"
+            android:visibility="invisible"
+            android:textStyle="italic"
+            ></TextView>
+
+        <EditText
+            android:id="@+id/maxPriceField"
+            android:layout_width="145dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="230dp"
+            android:layout_marginTop="130dp"
+            android:ems="10"
+            android:hint="Maximum Price"
+            android:inputType="numberDecimal" />
+
+
+        <TextView
+            android:id="@+id/condition"
+            android:layout_width="match_parent"
+            android:layout_height="29dp"
+            android:layout_marginLeft="15dp"
+            android:textSize="16sp"
+            android:layout_marginTop="185dp"
+            android:textColor="@color/app_blue_eBay"
+            android:text="Condition" />
+
+        <CheckBox
+            android:id="@+id/conditionNew"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:textSize="18sp"
+            android:layout_marginTop="210dp"
+            android:textStyle="italic"
+            android:text="New" />
+
+        <CheckBox
+            android:id="@+id/conditionUsed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+            android:textStyle="italic"
+            android:layout_marginTop="210dp"
+            android:textSize="18sp"
+            android:text="Used" />
+
+        <CheckBox
+            android:id="@+id/conditionUnspecified"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="268dp"
+            android:textStyle="italic"
+            android:textSize="18sp"
+            android:layout_marginTop="210dp"
+            android:text="Unspecified" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:textSize="16sp"
+            android:layout_marginTop="250dp"
+            android:textColor="@color/app_blue_eBay"
+            android:text="Sort By" />
+
+        <Spinner
+            android:id="@+id/spinner1"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="278dp"
+            />
+
+        <Button
+            android:id="@+id/search"
+            android:layout_width="178dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="340dp"
+            android:background="@color/app_blue_eBay"
+            android:textColor="@color/white"
+            android:text="Search" />
+
+        <Button
+            android:id="@+id/clear"
+            android:layout_width="178dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="205dp"
+            android:layout_marginTop="340dp"
+            android:background="@color/app_blue_eBay"
+            android:textColor="@color/white"
+            android:text="CLEAR" />
+    </FrameLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">eBayCatalogSearch</string>
+    <string-array name="sort_by">
+        <item>Best Match</item>
+        <item>Price: highest first</item>
+        <item>Price + Shipping:Highest First</item>
+        <item>Price + Shipping:Lowest First</item>
+    </string-array>
+
+</resources>

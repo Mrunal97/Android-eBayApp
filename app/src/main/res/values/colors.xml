@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#DDA0DD</color>
+    <color name="app_blue_eBay">#0063d1</color>
+    <color name="red">#FF0000</color>
+    <color name="orange">#d97855</color>
+    <color name="white">#FFFFFF</color>
+    <color name="green">#93ad43</color>
+</resources>
